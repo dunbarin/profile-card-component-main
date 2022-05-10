@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap);
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    text-align: center;
+  background-color:hsl(185, 75%, 39%);  
+  overflow: hidden;
+}
+.bg-pattern-top{
+    position:absolute;
+    top: -600px;
+    left: -270px;
+
+}
+
+.bg-pattern-bottom{
+    position:absolute;
+    bottom: -1300px;
+    right: -190px;
+}
+
+.text-category ul{
+    list-style: none;
+}
+.center-pattern{
+    background-color: white; 
+    box-shadow: 2px 2px 18px #6b6868;
+    position: absolute;
+    border-radius: 15px;
+    margin: 150px 0px 50px -200px;
+}
+
+.bg-pattern-card{
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius:0px ;
+}
+
+.image-victor{
+    position: absolute;
+    top: 86px;
+    left: 122px;
+    border: solid white 5px;
+    border-radius: 50%;
+    ;
+}
+
+.user-name{
+    color: hsl(229, 23%, 23%);
+    margin-top: 50px;
+    margin-right: 50px;
+    font-weight: 700;
+    font-family: kumbh sans;
+    display: flex;
+    justify-content: center;
+
+}
+
+.age{
+    padding-left: 10px;
+    color:hsl(227, 10%, 46%)
+}
+
+.user-location{
+    margin-right: 50px;
+    margin-top: -25px;
+    color:hsl(227, 10%, 46%);
+    font-size: 13px;
+}
+
+hr{
+    color:color hsl(227, 10%, 46%);
+}
+
+.flex1{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.follower-numbers{
+    font-size: 18px;
+    font-weight: 700;
+    color:  hsl(229, 23%, 23%);
+}
+
+.follower-number-text{
+    color:hsl(227, 10%, 46%);
+    font-size: 10px;
+}
